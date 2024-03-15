@@ -1,0 +1,14 @@
+{
+  "version-2024-03": {
+    "inheritFrom": ["@nowprototypeit/govuk"],
+    "installedPackages": [
+      "__INHERIT__",
+      "govuk-frontend",
+      "@govuk-prototype-kit/common-templates"
+    ],
+    "starterFileDirectories": [
+      "__INHERIT__",
+      "prototype-starter"
+    ]
+  }
+}

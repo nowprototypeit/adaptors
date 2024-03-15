@@ -1,0 +1,7 @@
+  {
+  "name": "@nowprototypeit/govuk-frontend-adaptor",
+  "version": "0.0.1",
+  "description": "An adaptor for GOV.UK Frontend functionality inside Now Prototype It kits.",
+  "author": "Natalie Carey <natalie@nowprototype.it>",
+  "license": "ISC"
+}
