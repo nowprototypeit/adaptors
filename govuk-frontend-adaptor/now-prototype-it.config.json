@@ -10,11 +10,11 @@
     "nunjucksPaths": "/nunjucks",
     "importNunjucksMacrosInto": "/nunjucks/govuk-frontend-adaptor/layouts/govuk-branded.njk",
     "sass": [
-      "sass/legacy-patterns/_contents-list.scss",
-      "sass/legacy-patterns/_mainstream-guide.scss",
-      "sass/legacy-patterns/_pagination.scss",
-      "sass/legacy-patterns/_related-items.scss",
-      "sass/legacy-patterns/_task-list.scss"
+      "/sass/legacy-patterns/_contents-list.scss",
+      "/sass/legacy-patterns/_mainstream-guide.scss",
+      "/sass/legacy-patterns/_pagination.scss",
+      "/sass/legacy-patterns/_related-items.scss",
+      "/sass/legacy-patterns/_task-list.scss"
     ],
     "settings": [
       {
