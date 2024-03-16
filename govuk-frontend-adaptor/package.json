@@ -2,6 +2,9 @@
   "name": "@nowprototypeit/govuk-frontend-adaptor",
   "version": "0.0.2",
   "description": "An adaptor for GOV.UK Frontend functionality inside Now Prototype It kits.",
+  "scripts": {
+    "test": "npx @nowprototypeit/govuk@latest validate-plugin"
+  },
   "author": "Natalie Carey <natalie@nowprototype.it>",
   "license": "ISC"
 }

@@ -2,7 +2,9 @@
   "version-2024-03": {
     "meta": {
       "description": "This adaptor allows you to use GOV.UK Frontend and the associated tools inside Now Prototype It projects.",
-      "documentation": "https://docs.nowprototype.it/adaptors/govuk-frontend-adaptor/{{VERSION}}"
+      "urls": {
+        "documentation": "https://docs.nowprototype.it/adaptors/govuk-frontend-adaptor/{{version}}"
+      }
     },
     "pluginDependencies": [
       "govuk-frontend",
