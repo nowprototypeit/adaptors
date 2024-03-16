@@ -1,7 +1,8 @@
 {
   "version-2024-03": {
     "meta": {
-      "description": "This adaptor allows you to use GOV.UK Frontend and the associated tools inside Now Prototype It projects.  If you use it as a variant when creating a new kit your kit will come out exactly like a govuk-prototype-kit project, if installing it later you might need to update your app/views/layouts/main.njk for the features to work fully."
+      "description": "This adaptor allows you to use GOV.UK Frontend and the associated tools inside Now Prototype It projects.",
+      "documentation": "https://docs.nowprototype.it/adaptors/govuk-frontend-adaptor/{{VERSION}}"
     },
     "pluginDependencies": [
       "govuk-frontend",
