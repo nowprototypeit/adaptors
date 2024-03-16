@@ -1,0 +1,69 @@
+{
+  "version-2024-03": {
+    "meta": {
+      "description": "This adaptor allows you to use GOV.UK Frontend and the associated tools inside Now Prototype It projects.  If you use it as a variant when creating a new kit your kit will come out exactly like a govuk-prototype-kit project, if installing it later you might need to update your app/views/layouts/main.njk for the features to work fully."
+    },
+    "pluginDependencies": [
+      "govuk-frontend",
+      "@govuk-prototype-kit/common-templates"
+    ],
+    "nunjucksPaths": "/nunjucks",
+    "importNunjucksMacrosInto": "/nunjucks/govuk-frontend-adaptor/layouts/govuk-branded.njk",
+    "sass": [
+      "sass/legacy-patterns/_contents-list.scss",
+      "sass/legacy-patterns/_mainstream-guide.scss",
+      "sass/legacy-patterns/_pagination.scss",
+      "sass/legacy-patterns/_related-items.scss",
+      "sass/legacy-patterns/_task-list.scss"
+    ],
+    "settings": [
+      {
+        "value": "{{ALL_PLUGINS_ASSETS_URL_CONTEXT}}",
+        "variableNames": {
+          "sass": "govuk-extensions-url-context"
+        }
+      },
+      {
+        "value": "{{ALL_PLUGINS_ASSETS_URL_CONTEXT}}",
+        "variableNames": {
+          "sass": "govuk-plugins-url-context"
+        }
+      },
+      {
+        "value": 13,
+        "variableNames": {
+          "sass": "govuk-prototype-kit-major-version"
+        }
+      },
+      {
+        "value": [
+          "legacy-colour-param"
+        ],
+        "variableNames": {
+          "sass": "govuk-suppressed-warnings"
+        }
+      },
+      {
+        "value": "{{ALL_PLUGINS_ASSETS_URL_CONTEXT}}/govuk-frontend/dist/govuk/assets/",
+        "variableNames": {
+          "sass": "govuk-assets-path",
+          "nunjucks": "assetsPath"
+        }
+      },
+      {
+        "value": true,
+        "isDefault": true,
+        "variableNames": {
+          "sass": "govuk-global-styles"
+        }
+      },
+      {
+        "value": true,
+        "isDefault": true,
+        "variableNames": {
+          "sass": "govuk-new-link-styles"
+        }
+      }
+    ]
+  }
+}
