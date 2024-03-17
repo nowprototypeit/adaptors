@@ -10,6 +10,38 @@
       "govuk-frontend",
       "@govuk-prototype-kit/common-templates"
     ],
+    "relatedPlugins": {
+      "fromNpm": [
+        "govuk-frontend",
+        "@govuk-prototype-kit/common-templates",
+        "@x-govuk/govuk-prototype-components",
+        "@govuk-prototype-kit/step-by-step",
+        "@govuk-prototype-kit/task-list",
+        "hmrc-frontend",
+        "jquery",
+        "notifications-node-client",
+        "@ministryofjustice/frontend",
+        "home-office-kit"
+      ],
+      "proxyPluginConfig": {
+        "govuk-frontend": {
+          "pluginDependencies": ["@nowprototypeit/govuk-frontend-adaptor"]
+        },
+        "notifications-node-client": {
+          "meta": {
+            "description": "GOV.UK Notify makes it easy for public sector service teams to send emails, text messages and letters."
+          }
+        },
+        "home-office-kit": {"pluginDependencies": ["govuk-frontend"]},
+        "@govuk-prototype-kit/common-templates": {"pluginDependencies": ["govuk-frontend"]},
+        "@govuk-prototype-kit/step-by-step": {"pluginDependencies": ["govuk-frontend"]},
+        "@govuk-prototype-kit/task-list": {"pluginDependencies": ["govuk-frontend"]},
+        "hmrc-frontend": {"pluginDependencies": ["govuk-frontend"]},
+        "@hmcts/frontend": {"pluginDependencies": ["govuk-frontend"]},
+        "@ministryofjustice/frontend": {"pluginDependencies": ["govuk-frontend"]},
+        "@x-govuk/govuk-prototype-components": {"pluginDependencies": ["govuk-frontend"]}
+      }
+    },
     "nunjucksPaths": "/nunjucks",
     "importNunjucksMacrosInto": "/nunjucks/govuk-frontend-adaptor/layouts/govuk-branded.njk",
     "sass": [
