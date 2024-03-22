@@ -86,10 +86,27 @@
         }
       },
       {
+        "value": "Service name goes here",
+        "isDefault": true,
+        "variableNames": {
+          "nunjucks": "serviceName"
+        },
+        "userInterface": {
+          "name": "Service name",
+          "hintText": "This is used in the header of each page by default. You can override this in individual templates.",
+          "type": "string"
+        }
+      },
+      {
         "value": true,
         "isDefault": true,
         "variableNames": {
           "sass": "govuk-global-styles"
+        },
+        "userInterface": {
+          "name": "GOV.UK global styles",
+          "hintText": "This setting controls whether the GOV.UK global styles are included in your project. If you are only using the GOV.UK Design System, you should enable this setting. If you are using also a different design system, you may want to disable this setting.",
+          "type": "bool"
         }
       },
       {
