@@ -1,5 +1,6 @@
 {
   "name": "@nowprototypeit/govuk-frontend-adaptor",
+  "repository": "https://github.com/nowprototypeit/adaptors",
   "version": "0.0.5",
   "description": "An adaptor for GOV.UK Frontend functionality inside Now Prototype It kits.",
   "scripts": {
