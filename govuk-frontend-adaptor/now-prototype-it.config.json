@@ -89,7 +89,7 @@
         "value": "Service name goes here",
         "isDefault": true,
         "variableNames": {
-          "nunjucks": "serviceName"
+          "nunjucks": "govukFrontendAdaptorServiceName"
         },
         "userInterface": {
           "name": "Service name",
