@@ -86,6 +86,12 @@
         }
       },
       {
+        "value": "{{PLUGIN_SPECIFIC_SETTINGS_PAGE_URL}}",
+        "variableNames": {
+          "nunjucks": "govukFrontendAdaptor.settingsPageUrl"
+        }
+      },
+      {
         "value": "Service name goes here",
         "isDefault": true,
         "variableNames": {
