@@ -89,9 +89,10 @@
         "value": "Service name goes here",
         "isDefault": true,
         "variableNames": {
-          "nunjucks": "govukFrontendAdaptorServiceName"
+          "nunjucks": "serviceName"
         },
         "userInterface": {
+          "key": "serviceName",
           "name": "Service name",
           "hintText": "This is used in the header of each page by default. You can override this in individual templates.",
           "type": "string"
@@ -104,6 +105,7 @@
           "sass": "govuk-global-styles"
         },
         "userInterface": {
+          "key": "globalGOVUKStyles",
           "name": "GOV.UK global styles",
           "hintText": "This setting controls whether the GOV.UK global styles are included in your project. If you are only using the GOV.UK Design System, you should enable this setting. If you are using also a different design system, you may want to disable this setting.",
           "type": "bool"
