@@ -11,7 +11,8 @@ How do I use it?
 You can create a new kit by creating an empty directory and running the following command in it:
 
 ```bash
-npx @nowprototypeit/govuk --variant=@nowprototypeit/govuk-frontend-adaptor create
+npx nowprototypeit --variant=@nowprototypeit/govuk-frontend-adaptor create
 ```
 
 This will create a new kit using the GOV.UK Frontend Adaptor to give you a GOV.UK Frontend based prototype kit.
+
