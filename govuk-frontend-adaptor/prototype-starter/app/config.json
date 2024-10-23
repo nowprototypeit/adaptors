@@ -1,7 +1,0 @@
-{
-  "basePlugins": [
-    "@nowprototypeit/govuk",
-    "govuk-prototype-kit",
-    "govuk-frontend"
-  ]
-}
