@@ -44,6 +44,9 @@
     },
     "nunjucksPaths": "/nunjucks",
     "importNunjucksMacrosInto": "/nunjucks/govuk-frontend-adaptor/layouts/govuk-branded.njk",
+    "nunjucksFunctions": [
+      "/filters.js"
+    ],
     "sass": [
       "/sass/legacy-patterns/_contents-list.scss",
       "/sass/legacy-patterns/_mainstream-guide.scss",
@@ -102,6 +105,19 @@
           "name": "Service name",
           "hintText": "This is used in the header of each page by default. You can override this in individual templates.",
           "type": "string"
+        }
+      },
+      {
+        "value": true,
+        "isDefault": true,
+        "variableNames": {
+          "nunjucks": "plugins.govuk-frontend.rebrand"
+        },
+        "userInterface": {
+          "key": "GOVUKRebrandStyles",
+          "name": "GOV.UK rebrand",
+          "hintText": "Use the new rebrand styles for GOV.UK. This is a new set of styles that are being rolled out across GOV.UK. This requires Now Prototype It version 0.14.0 or above, if need to upgrade visit /manage-prototype/plugin/npm:nowprototypeit",
+          "type": "bool"
         }
       },
       {
