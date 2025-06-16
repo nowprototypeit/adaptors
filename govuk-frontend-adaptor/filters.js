@@ -1,5 +1,5 @@
 const { addFunction } = require('nowprototypeit').views
-const { getPluginSpecificConfig } = require('nowprototypeit').config
+const { getPluginSpecificConfig } = require('nowprototypeit').config || {getPluginSpecificConfig: () => ({})}
 
 const GOVUKRebrandStyles = !!getPluginSpecificConfig('@nowprototypeit/govuk-frontend-adaptor').GOVUKRebrandStyles
 
