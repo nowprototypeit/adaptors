@@ -111,19 +111,6 @@
         "value": true,
         "isDefault": true,
         "variableNames": {
-          "nunjucks": "plugins.govuk-frontend.rebrand"
-        },
-        "userInterface": {
-          "key": "GOVUKRebrandStyles",
-          "name": "GOV.UK rebrand",
-          "hintText": "Use the new rebrand styles for GOV.UK. This is a new set of styles that are being rolled out across GOV.UK. This requires Now Prototype It version 0.14.0 or above, if need to upgrade visit /manage-prototype/plugin/npm:nowprototypeit",
-          "type": "bool"
-        }
-      },
-      {
-        "value": true,
-        "isDefault": true,
-        "variableNames": {
           "sass": "govuk-global-styles"
         },
         "userInterface": {
@@ -138,6 +125,19 @@
         "isDefault": true,
         "variableNames": {
           "sass": "govuk-new-link-styles"
+        }
+      },
+      {
+        "value": true,
+        "isDefault": true,
+        "variableNames": {
+          "nunjucks": "plugins.govuk-frontend.rebrand"
+        },
+        "userInterface": {
+          "key": "GOVUKRebrandStyles",
+          "name": "GOV.UK rebrand for GOV.UK Frontend V5",
+          "hintText": "Use the new rebrand styles for GOV.UK. This is a new set of styles that are being rolled out across GOV.UK. This requires Now Prototype It version 0.14.0 or above, if need to upgrade visit /manage-prototype/plugin/npm:nowprototypeit",
+          "type": "bool"
         }
       }
     ]
